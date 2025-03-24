@@ -1,17 +1,12 @@
 #include <stdio.h>
 
-
-int main(){
-    int bispo;
-    do{
-        printf("Digite o número de casas que o bispo pode mover (1-5): \n");
-        scanf("%d", &bispo);
-    } while (bispo < 1 || bispo > 5);
-    
-    printf("O bispo pode se mover até %d casas.\n", bispo);
-
-    printf("Cima,Direita\n");
-
+int main() {
+    int i = 1;
+        // Mover a rainha oito vezes para esquerda.
+    while(i <= 8){
+        printf("Esquerda\n"); // Imprime a direção do movimento.
+        i++;
+    }
 
     return 0;
 }
